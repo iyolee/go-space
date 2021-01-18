@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"greeting"
 	"io"
-	"log"
 	"os"
 	"reflect"
 	"time"
@@ -25,9 +24,6 @@ func main() {
 	greeting.Hello()
 
 	numbers, err := datafile.GetFloats("src/data.txt")
-	if err != nil {
-		log.Fatal(err)
-	}
 	var sum float64 = 0
 	for _, number := range numbers {
 		sum += number

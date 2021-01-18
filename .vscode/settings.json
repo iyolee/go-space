@@ -1,0 +1,7 @@
+{
+  "cSpell.words": [
+    "gostudy"
+  ],
+  "go.gopath": "${workspaceFolder}",
+  "go.inferGopath": true
+}
